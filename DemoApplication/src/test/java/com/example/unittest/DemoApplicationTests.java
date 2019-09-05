@@ -21,7 +21,7 @@ public class DemoApplicationTests {
 	@Test
 	public void should_get_h2_db_records() {
 
-		Person personActual = personRepository.save(new Person("Bilal"));
+		Person personActual = personRepository.save(new Person("H2 In Memory Demo"));
 
         Optional<Person> expected = personRepository.findById(personActual.getId());
 		System.out.println("name is :" + expected.get().getName());
