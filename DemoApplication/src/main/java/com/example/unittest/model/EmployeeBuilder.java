@@ -74,18 +74,4 @@ public class EmployeeBuilder {
                 '}';
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        EmployeeBuilder that = (EmployeeBuilder) o;
-        return eId == that.eId &&
-                Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(eId, firstName, lastName);
-    }
-}
+   }
