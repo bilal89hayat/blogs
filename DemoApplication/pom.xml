@@ -55,7 +55,7 @@
 	</build>
 
 
-	//include this for passing profile parameter in maven command
+
 	<profiles>
 		<profile>
 			<id>dev</id>
